@@ -1,8 +1,8 @@
 let i;
-let num = 0;
+let num1 = 10;
+let num2 = 3;
 
-for(i = 1; i < 11; i++){
-  num = num + i;
-}
-
-alert('1から10まで足し算した結果は' + num + 'です');
+alert(num1 + num2);
+alert(num1 - num2);
+alert(num1 * num2);
+alert(num1 / num2);
